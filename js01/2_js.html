@@ -29,6 +29,60 @@
         var result;
 
         alert(result);
+        
+        // # 증감연산자
+        var num1 = 10;
+        var num2 = 20;
+        var result;
+
+        num1--;
+        --num1;
+        // alert(num1);
+        
+        num1++;
+        ++num1;
+        
+        // result = ++num1;
+        
+        result = num1++;
+        alert(result + " | " + num1);   //    | (파이프)
+
+
+        // #비교 연산자
+        var a = 10;
+        var b = 20;
+        var c = 10;
+        var f = "20";
+        var result;
+
+        result = a > b;
+        result = a >= b;
+        result = a < b;
+        result = a <= b;
+        result = a != b;
+        result = a == b;
+        //alert(result);
+
+        result1 = b == f; // 값만 비교
+        result2 = b === f; // 타입 까지 비교해서 같아야지 true
+        alert(result1 + ":" + result2);
+
+        // #논리연산자
+        var a=10;
+        var b=20;
+        var m=30;
+        var n=40;
+
+        // result = a>b && b>=m; // and
+        // result = a>b || b>=m; // or   
+        result = !(a>b);   
+
+        // 삼항조건 연산자
+        var a = 10;
+        var b = 13;
+
+        var result = a > b ? "javascript" : "hello" ;
+        //alert(result);
 
     </script>
     
